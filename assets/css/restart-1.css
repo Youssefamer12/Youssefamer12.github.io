@@ -1,0 +1,38 @@
+header {
+    text-align: right;
+    color: #777777;
+    background-color: #ffffff;
+    font-size: 12px;
+    width: 960px;
+}
+
+h1 {
+    text-align: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 28px;
+    width: 210px;
+    width: 960px;
+    }
+
+h2 {
+    text-align: left;
+    color: #4aaaa5;
+    background-color: #ffffff;
+    margin-left: 40px;
+    width: 960px;
+}
+
+section {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #777777;
+    background: #ffffff;
+    width: 960px;
+}
+
+#about-me,
+#bio-image {
+    float: left;
+}
