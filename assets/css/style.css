@@ -1,3 +1,8 @@
+body {
+  background-image: url("file:///Users/youssef_amer/Desktop/crossline-dots.png");
+  align-content: center;
+}
+
 header {
     text-align: right;
     color: #777777;
@@ -37,14 +42,41 @@ ul {
     margin: 0;
     padding: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     color: #777777;
     background: #ffffff;
     float: right;
 }
 
+
+
 #about-me,
 #contact,
-#bio-image {
+#bio-image,
+#portfolio {
     float: left;
 }
+
+div.portfolio {
+    margin: 5px;
+    border: 1px solid #777;
+    float: left;
+    width: 450px;
+    height: 401px;
+  }
+  
+  div.portfolio:hover {
+    border: 1px solid #777;
+  }
+  
+  div.portfolio img {
+    width: 100%;
+    height: 86%;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #ffffff;
+    background: #4aaaa5;
+  }
